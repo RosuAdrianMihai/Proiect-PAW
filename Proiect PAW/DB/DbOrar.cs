@@ -15,7 +15,7 @@ namespace Proiect_PAW.DB
     {
         public static MySqlConnection GetConnection()
         {
-            string sql = "datasource=localhost;port=3306;username=root;password=nanaana123;database=dborar";
+            string sql = "datasource=localhost;port=3306;username=root;password=<pass>;database=dborar";
             MySqlConnection connection = new MySqlConnection(sql);
 
             try
